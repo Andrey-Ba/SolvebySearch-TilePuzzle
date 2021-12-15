@@ -26,18 +26,19 @@ Next line: "Goal state:" <br />
 Next N lines: Goal state <br />
 
 ## Input example
-A* <br />
-with time <br />
-no open <br />
-3x3 <br />
-1,2,3 <br />
-4,7,_ <br />
-5,6,_ <br />
-Goal state: <br />
-1,2,3 <br />
-4,5,6 <br />
-7,_ ,_
-
+```
+A*
+with time
+no open
+3x3
+1,2,3
+4,7,_
+5,6,_
+Goal state:
+1,2,3
+4,5,6
+7,_,_
+```
 # Output
 The output will be written in a file named "output.txt" <br />
 In the following format: <br />
@@ -49,7 +50,9 @@ Line 4: (Optional) Running time of the program <br />
 Turning "with open" will display the open list in the console. <br />
 
 # Output example
-6R-7D-6U-7R-5R-5U-7L-7L <br />
-Num: 328 <br />
-Cost: 40 <br />
-0.048 seconds <br />
+```
+6R-7D-6U-7R-5R-5U-7L-7L
+Num: 328
+Cost: 40
+0.048 seconds
+```
